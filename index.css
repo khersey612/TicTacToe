@@ -1,0 +1,64 @@
+/* Heading */
+	h1 {
+		color:peachpuff;
+		font-size: 50px;
+        text-align:center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+
+	/* tic Tac Toe Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 75px;
+		height: 50px;
+		margin: auto;
+		border: 2px solid saddlebrown;
+		border-radius: 20px;
+		font-size: 25px;
+		text-align: center;
+        cursor:pointer;
+        background-color: white;
+        color:saddlebrown;
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 100px;
+		height: 50px;
+		border: 2px solid peachpuff;
+		margin: auto;
+		border-radius: 20px;
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+		background-color: saddlebrown;
+		color: white;
+		font-size: 25px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+		color: peachpuff;
+		font-size: 25px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			
+		color: saddlebrown;
+		font-size: 15px;
+	}
+
